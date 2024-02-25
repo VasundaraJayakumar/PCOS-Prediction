@@ -1,7 +1,23 @@
-*.psd
-*.pdf
-test 
-spec
-features
-doc
-public
+# Exclude development and testing files
+tests/
+coverage/
+*.log
+
+# Exclude model training files and directories
+*.pkl
+
+# Exclude virtual environment directories
+venv/
+.env/
+
+# Exclude any editor-specific files
+.vscode/
+.idea/
+
+# Exclude version control system files
+.git/
+.gitignore
+
+# Exclude miscellaneous files
+README.md
+LICENSE
